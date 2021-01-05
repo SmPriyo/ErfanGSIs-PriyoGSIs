@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Merge S-P by YukoSky @ Treble-Experience
+# Merge S-P by priyo @ PriyoGSI
 # License: GPL3
 
-echo "-> S(EXT) Merger, by YukoSky (v1.5)"
-echo " - VelanGSIs Edition"
+echo "-> S(EXT) Merger, by Priyo (v1.5)"
+echo " - PriyoGSIs Edition"
 
 ### Initial vars
 LOCALDIR=`cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd`
@@ -49,7 +49,7 @@ CREDITS() {
    echo "" >> build.prop
    echo "#############################" >> build.prop
    echo "# Merged by S(EXT)-P Merger #" >> build.prop
-   echo "#        By YukoSky         #" >> build.prop
+   echo "#        By Priyo         #" >> build.prop
    echo "#############################" >> build.prop
    echo "" >> build.prop
 }
